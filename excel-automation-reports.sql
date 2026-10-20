@@ -1,6 +1,6 @@
--- Automação e formatação de relatórios em Excel utilizando Python e a biblioteca openpyxl.
--- O projeto demonstra a capacidade de gerar planilhas dinâmicas e estruturadas de forma programática.
--- Excelente exemplo prático de aplicação de Python para análise de dados e suporte ao cliente.
+-- Relatórios de atendimento ao cliente em SQL.
+-- Cria uma tabela de chamados, insere dados de exemplo e calcula
+-- o desempenho por agente (tempo médio de resposta e satisfação).
 
 -- 1. Criação da tabela de chamados de atendimento
 CREATE TABLE chamados_suporte (
@@ -22,8 +22,8 @@ INSERT INTO chamados_suporte (id_chamado, id_cliente, agente, categoria, status,
 (104, 1004, 'Beatriz Lima', 'Dúvida Técnica', 'Fechado', 20, 5, '2026-10-02 14:20:00'),
 (105, 1005, 'Carlos Souza', 'Erro de Sistema', 'Fechado', 90, 2, '2026-10-02 16:05:00');
 
--- 3. Consulta para análise de desempenho por agente (Tempo médio de resposta e satisfação)
-SELECT 
+-- 3. Desempenho por agente (somente chamados fechados)
+SELECT
     agente,
     COUNT(id_chamado) AS total_chamados,
     AVG(tempo_resposta_minutos) AS tempo_medio_resposta_min,
