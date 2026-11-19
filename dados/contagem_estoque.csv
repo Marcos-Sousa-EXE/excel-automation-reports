@@ -1,0 +1,17 @@
+codigo,produto,categoria,lote,validade,estoque_minimo,qtd_sistema,qtd_fisica,custo_unitario
+MED001,Dipirona 500mg (cx 10 comp),Analgésico,L2401,2027-08-15,40,120,118,4.90
+MED002,Paracetamol 750mg (cx 20 comp),Analgésico,L2402,2027-03-10,30,85,85,6.20
+MED003,Amoxicilina 500mg (cx 21 caps),Antibiótico,L2318,2026-12-20,25,32,28,18.50
+MED004,Omeprazol 20mg (cx 28 caps),Gastrointestinal,L2405,2027-11-30,30,60,60,9.80
+MED005,"Soro Fisiológico 0,9% 500ml",Hidratação,L2420,2027-05-05,100,240,226,5.40
+MED006,Losartana 50mg (cx 30 comp),Cardiovascular,L2390,2027-01-18,35,22,22,7.30
+MED007,Insulina NPH 10ml,Hormônio,L2412,2026-12-05,15,18,17,29.90
+MED008,Ceftriaxona 1g (frasco),Antibiótico,L2399,2027-02-28,20,14,14,22.00
+MAT001,Luva de Procedimento M (cx 100),Material,L2433,2029-06-01,50,180,165,32.00
+MAT002,Seringa 10ml (unid),Material,L2441,2030-01-01,300,950,950,0.85
+MAT003,Gaze Estéril (pct 10),Material,L2425,2028-09-12,150,410,398,2.10
+MAT004,"Esparadrapo 10cm x 4,5m",Material,L2410,2028-04-20,40,35,35,8.70
+MED009,Dexametasona 4mg/ml (amp),Corticoide,L2387,2027-01-05,30,48,52,3.60
+MED010,Ondansetrona 8mg (amp),Antiemético,L2402,2027-07-22,25,40,40,6.90
+MED011,Heparina 5000UI (frasco),Anticoagulante,L2379,2026-12-28,20,26,24,41.50
+MED012,Captopril 25mg (cx 30 comp),Cardiovascular,L2422,2027-09-14,30,70,70,3.20
